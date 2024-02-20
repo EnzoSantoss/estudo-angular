@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+
+button {
+  margin: 0 auto; /* Isso vai centralizar horizontalmente */
+  display: block; /* Para garantir que a margem 'auto' funcione corretamente */
+  cursor: pointer;
+}
+
+.imagem-centralizada {
+  // margin: 0 auto; /* Isso vai centralizar horizontalmente */
+  display: block; /* Para garantir que a margem 'auto' funcione corretamente */
+  padding-bottom: 13px;
+  width: 200px; /* Defina o tamanho desejado */
+  height: auto; /* Isso manterá a proporção da imagem */
+}
