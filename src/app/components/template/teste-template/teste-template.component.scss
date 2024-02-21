@@ -1,6 +1,77 @@
-h1 {
+// HEADER
+.title {
+  text-decoration: none;
+  color: black;
+}
+.title:hover {
+  font-weight: bold;
+  color: blue;
+  font-size: 110px;
+}
+header {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  background-color: #fcd303;
+  border: 5px solid red;
+}
+header h1 {
   text-align: center;
+  font-size: 100px;
+  font-style: italic;
+}
+
+header nav {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+header li:first-child {
   color: red;
+}
+header li:nth-child(2) {
+  color: green;
+}
+
+header li:nth-child(3) {
+  color: blue;
+}
+header li {
+  font-weight: bold;
+}
+// --- SECTIONS ---
+
+section {
+  font-family: sans-serif;
+}
+
+// .Foto_Fundo {
+//   background-image: url("../../../../assets/fotoPerfil.jpg");
+//   background-size: cover;
+//   background-position: center;
+// }
+
+//Historia
+.historia h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.historia p {
+  font-size: 20px;
+  line-height: 1.5;
+  //font-weight: bold;
+}
+
+//Times
+.times ul {
+  list-style: none;
+}
+
+//Fotos
+
+//Listas
+.lista {
+  list-style: none;
 }
 
 button {
