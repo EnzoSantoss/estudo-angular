@@ -1,0 +1,34 @@
+* {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #706356;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header p {
+  margin: 10px;
+  font-weight: bold;
+}
+header p:hover {
+  background-color: orange;
+  border-radius: 10px;
+  padding: auto;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  font-family: sans-serif;
+}
+.this-is-craque {
+  margin-top: 10px;
+}
+.this-is-craque h2 {
+  border-bottom: 3px solid black;
+  display: inline;
+}
