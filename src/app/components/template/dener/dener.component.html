@@ -1,0 +1,15 @@
+<h1 [class.gt32]="age >= 32" [class.lt32]="age < 32">TESTE = {{ age }}</h1>
+
+<section class="guesser">
+  <button class="btn" (click)="sum()">+</button>
+  <button class="btn" (click)="sub()">-</button>
+</section>
+
+<h2>X:{{ clientX }}</h2>
+<h2>Y:{{ clientY }}</h2>
+<section class="mouse-move" (mousemove)="mouseLoger($event)"></section>
+
+<input type="color" class="color-selector" (change)="onChangeColor($event)" />
+<h2>Cor selecionada : {{ color }}</h2>
+
+<input [(ngModel)]="name" /> {{ name }}

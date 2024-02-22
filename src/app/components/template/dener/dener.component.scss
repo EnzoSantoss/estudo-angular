@@ -1,0 +1,32 @@
+.gt32 {
+  font-size: 100px;
+  color: red;
+}
+
+.lt32 {
+  color: blue;
+}
+
+.btn {
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+// .guesser {
+//   position: absolute;
+//   border: 2px solid black;
+//   bottom: 500px;
+//   text-align: center;
+//   justify-content: center;
+// }
+.mouse-move {
+  background: red;
+  width: 300px;
+  height: 300px;
+  display: block;
+}
+
+.color-selector {
+  margin-top: 20px;
+}
