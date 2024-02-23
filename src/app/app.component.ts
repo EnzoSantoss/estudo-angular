@@ -23,12 +23,12 @@ import { ControlFlowComponent } from './components/template/control-flow/control
   ],
   template: `
     <!-- <router-outlet></router-outlet> -->
-    <!-- <app-new-components /> -->
+    <app-new-components />
     <!-- <app-teste-template /> -->
     <!-- <app-page-good /> -->
     <!-- <app-dener /> -->
     <!-- <app-template-binding /> -->
-    <app-control-flow />
+    <!-- <app-control-flow /> -->
   `,
 })
 export class AppComponent {

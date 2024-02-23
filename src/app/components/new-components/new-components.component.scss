@@ -1,3 +1,72 @@
-h2 {
-  color: red;
+header {
+  justify-content: center;
+  text-align: center;
+  background-color: #747eed;
+  margin-bottom: 10px;
+
+  .nav-list li {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+  }
+  .nav-list li:hover {
+    background-color: #ffff;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+}
+
+.about-me-div {
+  margin-bottom: 20px;
+}
+
+.photos-div {
+  text-align: center;
+  img {
+    margin-right: 10px;
+    width: 300px;
+    height: 200px;
+  }
+}
+
+.teste {
+  display: flex;
+  justify-content: center;
+
+  .flex-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: gray;
+    width: 500px;
+    position: relative;
+    .html {
+      background-color: red;
+      height: 100px;
+    }
+    .css {
+      background-color: blue;
+      height: 200px;
+    }
+    .js {
+      background-color: green;
+      height: 100px;
+    }
+    .java {
+      background-color: orange;
+      height: 100px;
+    }
+    .ruby {
+      background-color: purple;
+      height: 100px;
+    }
+
+    .btn {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
 }
