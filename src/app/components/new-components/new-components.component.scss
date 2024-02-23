@@ -1,20 +1,35 @@
 header {
-  justify-content: center;
-  text-align: center;
   background-color: #747eed;
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
 
-  .nav-list li {
-    display: inline-block;
-    margin: 20px;
-    padding: 10px;
-    font-weight: bold;
+  .nav-div {
+    .nav-list {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      gap: 20px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
   }
-  .nav-list li:hover {
-    background-color: #ffff;
-    cursor: pointer;
-    border-radius: 20px;
-  }
+  // justify-content: center;
+  // text-align: center;
+  // margin-bottom: 10px;
+
+  // .nav-list li {
+  //   display: inline-block;
+  //   margin: 20px;
+  //   padding: 10px;
+  //   font-weight: bold;
+  // }
+  // .nav-list li:hover {
+  //   background-color: #ffff;
+  //   cursor: pointer;
+  //   border-radius: 20px;
+  // }
 }
 
 .about-me-div {
@@ -23,6 +38,7 @@ header {
 
 .photos-div {
   text-align: center;
+  border-top: 2px solid black;
   img {
     margin-right: 10px;
     width: 300px;
@@ -69,4 +85,13 @@ header {
       right: 0;
     }
   }
+}
+
+.propaganda {
+  background-color: grey;
+  flex-basis: 0 0 1000px;
+}
+
+.site-body {
+  display: flex;
 }

@@ -1,0 +1,80 @@
+.all {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+
+.main-section {
+  width: 800px;
+  border: 3px solid black;
+  h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: grey;
+  }
+  .btn-div {
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 10px;
+  }
+  .btn-div:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+}
+
+.price-info {
+  margin-top: 10px;
+  flex: 1;
+  //border-right: 2px solid black;
+
+  a {
+    display: inline-block;
+    margin-top: 30px;
+    color: black;
+  }
+
+  .colors-div {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+
+    .color {
+      height: 30px;
+      width: 30px;
+    }
+  }
+}
+
+.product-detail {
+  flex: 1;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.sale-div {
+  position: absolute;
+  color: white;
+  background-color: red;
+  top: 141px;
+  left: 255px;
+  transform: rotate(-45deg);
+}

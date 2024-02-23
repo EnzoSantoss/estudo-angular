@@ -7,7 +7,7 @@ import { PageGoodComponent } from './components/template/page-good/page-good.com
 import { DenerComponent } from './components/template/dener/dener.component';
 import { TemplateBindingComponent } from './components/template/template-binding/template-binding.component';
 import { ControlFlowComponent } from './components/template/control-flow/control-flow.component';
-
+import { Chalenge1Component } from './components/chalange/chalenge-1/chalenge-1.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -20,15 +20,17 @@ import { ControlFlowComponent } from './components/template/control-flow/control
     DenerComponent,
     TemplateBindingComponent,
     ControlFlowComponent,
+    Chalenge1Component,
   ],
   template: `
     <!-- <router-outlet></router-outlet> -->
-    <app-new-components />
+    <!-- <app-new-components /> -->
     <!-- <app-teste-template /> -->
     <!-- <app-page-good /> -->
     <!-- <app-dener /> -->
     <!-- <app-template-binding /> -->
     <!-- <app-control-flow /> -->
+    <app-chalenge-1 />
   `,
 })
 export class AppComponent {
