@@ -1,0 +1,75 @@
+.container-one {
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+  column-gap: 20px;
+  row-gap: 30px;
+  * {
+    padding: 3px;
+    margin: 1px;
+  }
+
+  .black {
+    background-color: black;
+    color: white;
+  }
+  .green {
+    background-color: green;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .purple {
+    background-color: purple;
+  }
+  .orange {
+    background-color: orange;
+  }
+  .red {
+    background-color: red;
+  }
+  .pink {
+    background-color: pink;
+  }
+  .blue {
+    background-color: blue;
+  }
+}
+
+.container-two {
+  margin-left: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  * {
+    flex-grow: 1;
+    flex-basis: 30%;
+  }
+
+  .black {
+    background-color: black;
+    color: white;
+  }
+  .green {
+    background-color: green;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .purple {
+    background-color: purple;
+  }
+  .orange {
+    background-color: orange;
+  }
+  .red {
+    background-color: red;
+  }
+  .pink {
+    background-color: pink;
+  }
+  .blue {
+    background-color: blue;
+  }
+}

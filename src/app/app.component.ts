@@ -8,6 +8,8 @@ import { DenerComponent } from './components/template/dener/dener.component';
 import { TemplateBindingComponent } from './components/template/template-binding/template-binding.component';
 import { ControlFlowComponent } from './components/template/control-flow/control-flow.component';
 import { Chalenge1Component } from './components/chalange/chalenge-1/chalenge-1.component';
+import { CssGridComponent } from './components/template/css-grid/css-grid.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -21,6 +23,7 @@ import { Chalenge1Component } from './components/chalange/chalenge-1/chalenge-1.
     TemplateBindingComponent,
     ControlFlowComponent,
     Chalenge1Component,
+    CssGridComponent,
   ],
   template: `
     <!-- <router-outlet></router-outlet> -->
@@ -30,7 +33,8 @@ import { Chalenge1Component } from './components/chalange/chalenge-1/chalenge-1.
     <!-- <app-dener /> -->
     <!-- <app-template-binding /> -->
     <!-- <app-control-flow /> -->
-    <app-chalenge-1 />
+    <!-- <app-chalenge-1 /> -->
+    <app-css-grid />
   `,
 })
 export class AppComponent {
