@@ -9,6 +9,7 @@ import { TemplateBindingComponent } from './components/template/template-binding
 import { ControlFlowComponent } from './components/template/control-flow/control-flow.component';
 import { Chalenge1Component } from './components/chalange/chalenge-1/chalenge-1.component';
 import { CssGridComponent } from './components/template/css-grid/css-grid.component';
+import { DesignComponent } from './components/template/design/design.component';
 
 @Component({
   selector: 'app-root',
@@ -24,6 +25,7 @@ import { CssGridComponent } from './components/template/css-grid/css-grid.compon
     ControlFlowComponent,
     Chalenge1Component,
     CssGridComponent,
+    DesignComponent,
   ],
   template: `
     <!-- <router-outlet></router-outlet> -->
@@ -34,7 +36,8 @@ import { CssGridComponent } from './components/template/css-grid/css-grid.compon
     <!-- <app-template-binding /> -->
     <!-- <app-control-flow /> -->
     <!-- <app-chalenge-1 /> -->
-    <app-css-grid />
+    <!-- <app-css-grid /> -->
+    <app-design />
   `,
 })
 export class AppComponent {
