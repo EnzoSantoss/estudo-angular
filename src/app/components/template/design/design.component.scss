@@ -88,9 +88,14 @@ body {
   margin-bottom: 20px;
   padding: 30px;
   background-color: #4263eb;
+  border-radius: 0px 0px 200px 0px;
 
   .comments {
     color: #ffffff;
+    h3 {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
   }
 }
 
